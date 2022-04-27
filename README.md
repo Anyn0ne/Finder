@@ -10,6 +10,7 @@ This project is only compatible with Freeboxes, but I'm working on a larger comp
 
 ## Before using the app, please change the following lines in ./app/src/main/java/com/anynone/finderMainActivity.java :
 line 98 : private String url = "https://urltoyourfreebox:portnumber/"; //replace the value in the quotes by your freebox url.
+
 line 95 : private String app_token="yourapptoken";//get an application token and replace the value in quotes by the token you get (more informations here : https://dev.freebox.fr/sdk/os/login/#)
 
 In a future release, theses values will be changed programmatically.
