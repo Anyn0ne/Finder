@@ -8,7 +8,7 @@ I am in no way responsible if you use the application for malicious purposes (tr
 ## Current compatibility:
 This project is only compatible with Freeboxes, but I'm working on a larger compatibility.
 
-## Before using the app, please change the following lines in MainActivity.java :
+## Before using the app, please change the following lines in ./app/src/main/java/com/anynone/finderMainActivity.java :
 line 98 : private String url = "https://urltoyourfreebox:portnumber/"; //replace the value in the quotes by your freebox url.
 line 95 : private String app_token="yourapptoken";//get an application token and replace the value in quotes by the token you get (more informations here : https://dev.freebox.fr/sdk/os/login/#)
 
